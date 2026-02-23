@@ -1,0 +1,48 @@
+/* General setup */
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('fonts/SourceSansPro-Black.woff2') format('woff2'),
+    url('fonts/SourceSansPro-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+    url('fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  font-size: 10px;
+  margin: 0;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-family: "Source Sans Pro", serif;
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-family: "Comic Relief", system-ui;
+  font-size: 2.11rem;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+}

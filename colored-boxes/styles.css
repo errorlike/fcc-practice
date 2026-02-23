@@ -1,0 +1,49 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    max-width: 800px;
+}
+
+.green {
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.purple {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.orange {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.color4 {
+    background-color: hsl(59, 61%, 26%);
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.color5 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}

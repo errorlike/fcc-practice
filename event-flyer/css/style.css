@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+html {
+  background-color: gray;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 50px 10px;
+  width: 90vw;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  min-height: calc(100vh - 50px);
+}
+
+section {
+  padding: 50px 5px;
+  display: inline-block;
+  vertical-align: top;
+  min-height: 100px;
+  width: 30%;
+}
+
+h2 {
+  margin: 8px auto;
+}
+
+ul {
+  margin: 0,auto;
+  text-align: left;
+  padding-left: 90px;
+  list-style-position: inside;
+}
+
+hr {
+  color: black;
+  width: 80%;
+  border: none;
+  border-top: 2px solid;
+  margin: 10px auto;
+}

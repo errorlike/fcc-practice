@@ -1,0 +1,33 @@
+#email {
+    height: 80vh;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: antiquewhite;
+    width: 500px;
+    border: 2px solid black;
+}
+
+#confidential {
+    margin: 10px auto;
+    font-weight: bold;
+    color: red;
+    padding: 5px;
+    text-align: center;
+    width: 50px;
+    border: solid 5px red;
+    transform: rotate(-20deg);
+}
+
+#top-sercet {
+    display: inline-block;
+    padding: 10px;
+    color: red;
+    margin-left: 200px;
+    border: solid 5px;
+    font-weight: bold;
+    transform: rotate(20deg);
+}
+
+.blurred {
+    filter: blur(3px);
+}

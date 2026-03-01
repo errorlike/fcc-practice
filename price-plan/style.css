@@ -1,0 +1,19 @@
+.container {
+    border: 2px solid black;
+    width: 30%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+button {
+    background-color: yellow;
+}
+
+h1 {
+    width: 50%;
+    font-weight: bold;
+    margin: auto;
+}
